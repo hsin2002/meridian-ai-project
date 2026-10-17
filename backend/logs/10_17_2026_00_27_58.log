@@ -1,0 +1,47 @@
+{"path": "/Users/mohsinurrahman/Documents/Agentic AI/Langchain Projects/meridian-ai/.meridian/chroma", "timestamp": "2026-10-17T05:28:02.320089Z", "level": "info", "severity": "INFO", "event": "Using local Chroma vector store"}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+{"query": "What payment terms do servo motor suppliers get?", "retriever_type": "similarity", "timestamp": "2026-10-17T05:28:03.198198Z", "level": "info", "severity": "INFO", "event": "RAG query received"}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+{"answer": "Servo motor suppliers with a credit score of 75 or higher (low risk) receive standard **Net-45** payment terms. \n\n*(Note: Depending on vendor risk score, suppliers scoring 50 to 74 require a 25 to 50 percent deposit or confirmed letter of credit, while those scoring below 50 require full prepayment plus a bank guarantee, or are rejected.)*", "timestamp": "2026-10-17T05:28:08.295361Z", "level": "info", "severity": "INFO", "event": "RAG answer generated"}
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+{"queries": ["What payment terms do servo motor suppliers get?", "What are the typical payment conditions offered to servo motor vendors?", "What standard credit terms do servo motor manufacturers usually receive?", "What are the common payment schedules and arrangements for suppliers of servo motors?"], "timestamp": "2026-10-17T05:28:11.776047Z", "level": "info", "severity": "INFO", "event": "MultiQuery rewrites"}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+{"query": "What payment terms do servo motor suppliers get?", "retriever_type": "multiquery", "timestamp": "2026-10-17T05:28:12.556256Z", "level": "info", "severity": "INFO", "event": "RAG query received"}
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+{"queries": ["What payment terms do servo motor suppliers get?", "What are the typical payment terms offered to servo motor manufacturers?", "Which standard payment conditions apply to vendors of servo motors?", "What kind of payment terms are commonly negotiated with servo motor suppliers?"], "timestamp": "2026-10-17T05:28:16.389094Z", "level": "info", "severity": "INFO", "event": "MultiQuery rewrites"}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+{"answer": "Servo motor suppliers (classified as low-risk vendors with a credit score of 75 or higher) receive standard **Net-45 payment terms**.", "timestamp": "2026-10-17T05:28:20.479640Z", "level": "info", "severity": "INFO", "event": "RAG answer generated"}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+AFC is enabled with max remote calls: 10.
+AFC is enabled with max remote calls: 10.
+AFC is enabled with max remote calls: 10.
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+{"query": "What payment terms do servo motor suppliers get?", "retriever_type": "contextual", "timestamp": "2026-10-17T05:28:25.706980Z", "level": "info", "severity": "INFO", "event": "RAG query received"}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+AFC is enabled with max remote calls: 10.
+AFC is enabled with max remote calls: 10.
+AFC is enabled with max remote calls: 10.
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+{"answer": "Servo motor suppliers receive standard Net-45 payment terms, provided they have a credit score of 75 or higher.", "timestamp": "2026-10-17T05:28:33.075097Z", "level": "info", "severity": "INFO", "event": "RAG answer generated"}

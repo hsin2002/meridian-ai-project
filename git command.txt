@@ -1,0 +1,30 @@
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/hsin2002/meridian-ai-project.git
+git push -u origin main
+
+
+
+git pull --rebase origin main
+git push -u origin main
+
+
+
+# run from meridian-ai. Still in backend/? Run cd .. first
+$ cp ../meridian-reference/backend/exceptions/__init__.py backend/exceptions/__init__.py
+$ cp ../meridian-reference/backend/logger/__init__.py backend/logger/__init__.py
+$ cp ../meridian-reference/backend/logger/custom_logger.py backend/logger/custom_logger.py
+$ wc -l backend/exceptions/__init__.py backend/logger/__init__.py backend/logger/custom_logger.py
+
+cd backend
+cp ../../meridian-reference/backend/rag/llm.py rag/llm.py
+cp ../../meridian-reference/backend/rag/embeddings.py rag/embeddings.py
+wc -l rag/llm.py rag/embeddings.py
+
+uv run python ../../meridian-reference/docs/examples/05_similarity_demo.py
+
+cp ../../meridian-reference/backend/rag/vector_store.py rag/vector_store.py
+cp ../../meridian-reference/backend/rag/document_store.py rag/document_store.py
+wc -l rag/vector_store.py rag/document_store.py

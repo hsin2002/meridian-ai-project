@@ -1,0 +1,26 @@
+{"query": "What was the total revenue in FY2024?", "retriever_type": "similarity", "timestamp": "2026-10-18T15:02:00.690956Z", "level": "info", "severity": "INFO", "event": "RAG query received"}
+{"path": "/Users/mohsinurrahman/Documents/Agentic AI/Langchain Projects/meridian-ai/.meridian/chroma", "timestamp": "2026-10-18T15:02:02.442794Z", "level": "info", "severity": "INFO", "event": "Using local Chroma vector store"}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+{"answer": "Total revenue in FY2024 was EUR 2.84 billion.", "timestamp": "2026-10-18T15:02:05.007295Z", "level": "info", "severity": "INFO", "event": "RAG answer generated"}
+{"query": "What payment terms do servo motor suppliers get?", "retriever_type": "similarity", "timestamp": "2026-10-18T15:02:05.008174Z", "level": "info", "severity": "INFO", "event": "RAG query received"}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+{"answer": "Servo motor suppliers receive standard **Net-45 payment terms**, provided they have a credit score of 75 or higher (qualifying as low risk). \n\nIf their credit score is lower, the standard risk-based terms apply:\n* **Score 50 to 74 (moderate risk):** 25 to 50 percent deposit or a confirmed letter of credit.\n* **Score below 50 (high risk):** Full prepayment plus a bank guarantee, or rejection.", "timestamp": "2026-10-18T15:02:09.837601Z", "level": "info", "severity": "INFO", "event": "RAG answer generated"}
+{"query": "What is the customs duty on programmable controllers imported from Japan?", "retriever_type": "similarity", "timestamp": "2026-10-18T15:02:09.838095Z", "level": "info", "severity": "INFO", "event": "RAG query received"}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+{"answer": "Based on the provided context, the customs duty rate on programmable controllers imported from Japan into the European Union is **2.2 percent** of the customs value (tariff heading 8537 10).", "timestamp": "2026-10-18T15:02:12.580063Z", "level": "info", "severity": "INFO", "event": "RAG answer generated"}
+{"query": "Over how many years is filling line equipment depreciated?", "retriever_type": "similarity", "timestamp": "2026-10-18T15:02:12.580454Z", "level": "info", "severity": "INFO", "event": "RAG query received"}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+{"answer": "Filling line equipment is depreciated over **10 years** (on a straight-line basis).", "timestamp": "2026-10-18T15:02:14.423058Z", "level": "info", "severity": "INFO", "event": "RAG answer generated"}
+{"query": "Who won the football World Cup in 2022?", "retriever_type": "similarity", "timestamp": "2026-10-18T15:02:14.423467Z", "level": "info", "severity": "INFO", "event": "RAG query received"}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+{"answer": "Based on the provided context, I don't know the answer to that question as the documents only contain information about Aldermoor Industries.", "timestamp": "2026-10-18T15:02:17.083273Z", "level": "info", "severity": "INFO", "event": "RAG answer generated"}
